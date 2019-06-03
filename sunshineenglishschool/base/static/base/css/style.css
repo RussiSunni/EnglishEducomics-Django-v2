@@ -525,7 +525,7 @@ a {
 	text-align: center;
 }
 
-#fisherhaven {
+#capetown {
 	z-index: 2;
 	width: 200px;
 	height: 100px;
@@ -574,7 +574,7 @@ a {
 }
 
 
-#village:hover, #fisherhaven:hover, #london:hover, #iris:hover, #ghana:hover, #congo:hover, #kush:hover {
+#village:hover, #capetown:hover, #london:hover, #iris:hover, #ghana:hover, #congo:hover, #kush:hover {
 	background: rgba(50, 50, 50, 0.1);
 	border: 2px solid black;
 }
@@ -638,7 +638,7 @@ a {
 		line-height: 60px;
 	}
 	
-	#fisherhaven {
+	#capetown {
 		width: 100px;
 		height: 70px;
 		left: 270px;
@@ -710,7 +710,7 @@ a {
 		font-size: 80%;
 	}
 	
-	#fisherhaven {
+	#capetown {
 		width: 100px;
 		height: 50px;
 		left: 170px;

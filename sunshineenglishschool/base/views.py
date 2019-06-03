@@ -114,3 +114,111 @@ def london13(request):
 
 def london14(request):
     return render(request, "base/london/14.html")
+
+
+def capetown01(request):
+    return render(request, "base/capetown/01.html")
+
+
+def capetown02(request):
+    return render(request, "base/capetown/02.html")
+
+
+def capetown03(request):
+    return render(request, "base/capetown/03.html")
+
+
+def capetown04(request):
+    return render(request, "base/capetown/04.html")
+
+
+def capetown05(request):
+    return render(request, "base/capetown/05.html")
+
+
+def capetown06(request):
+    return render(request, "base/capetown/06.html")
+
+
+def numidia01(request):
+    return render(request, "base/numidia/01.html")
+
+
+def numidia02(request):
+    return render(request, "base/numidia/02.html")
+
+
+def numidia03(request):
+    return render(request, "base/numidia/03.html")
+
+
+def numidia04(request):
+    return render(request, "base/numidia/04.html")
+
+
+def numidia05(request):
+    return render(request, "base/numidia/05.html")
+
+
+def numidia06(request):
+    return render(request, "base/numidia/06.html")
+
+
+def numidia07(request):
+    return render(request, "base/numidia/07.html")
+
+
+
+def ethiopia01(request):
+    return render(request, "base/ethiopia/01.html")
+
+    
+def ethiopia02(request):
+    return render(request, "base/ethiopia/02.html")
+
+    
+def ethiopia03(request):
+    return render(request, "base/ethiopia/03.html")
+
+    
+def ethiopia04(request):
+    return render(request, "base/ethiopia/04.html")
+
+    
+def ethiopia05(request):
+    return render(request, "base/ethiopia/05.html")
+
+    
+def ethiopia06(request):
+    return render(request, "base/ethiopia/06.html")
+
+    
+def ethiopia07(request):
+    return render(request, "base/ethiopia/07.html")
+
+    
+def ethiopia08(request):
+    return render(request, "base/ethiopia/08.html")
+
+    
+def ethiopia09(request):
+    return render(request, "base/ethiopia/09.html")
+
+    
+def ethiopia10(request):
+    return render(request, "base/ethiopia/10.html")
+
+    
+def ethiopia11(request):
+    return render(request, "base/ethiopia/11.html")
+
+    
+def ethiopia12(request):
+    return render(request, "base/ethiopia/12.html")
+
+    
+def ethiopia13(request):
+    return render(request, "base/ethiopia/13.html")
+
+def ethiopia14(request):
+    return render(request, "base/ethiopia/14.html")
