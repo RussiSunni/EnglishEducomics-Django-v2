@@ -10,6 +10,9 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <li class="nav-item active">
+        <a class="nav-link" href="{% url 'reception' %}">Back to Reception</a>
+    </li>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
@@ -45,6 +48,9 @@
             </a>
             <a href="#" id="kush" class="my-auto">
                 Kush
+            </a>
+            <a href="{% url 'fish-people01' %}" id="fish-people" class="my-auto">
+                Fish People
             </a>
             <img src="{% static "base/hub/map.jpg" %}" alt="map" width=700 height=588 alt="map" usemap="#map"
                 class="panel" id="map">

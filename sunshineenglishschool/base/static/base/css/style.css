@@ -519,8 +519,8 @@ a {
 	height: 100px;
 	position: absolute;
 	border: 1px solid rgba(50, 50, 50, 0.5);
-	left: 404px;
-	top: 400px;
+	left: 104px;
+	top: 0px;
 	line-height: 100px;
 	text-align: center;
 }
@@ -569,6 +569,18 @@ a {
 	border: 1px solid rgba(50, 50, 50, 0.5);
 	left: 470px;
 	top: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+#fish-people {
+	z-index: 2;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	border: 1px solid rgba(50, 50, 50, 0.5);
+	left: 520px;
+	top: 400px;
 	line-height: 100px;
 	text-align: center;
 }

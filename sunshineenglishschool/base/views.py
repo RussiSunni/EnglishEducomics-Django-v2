@@ -56,8 +56,28 @@ def hub(request):
     return render(request, "base/hub/hub.html")
 
 
+def reception(request):
+    return render(request, "base/hub/reception.html")
+
+
 def room(request):
     return render(request, "base/hub/room.html")
+
+
+def tannaspast01(request):
+    return render(request, "base/tannas-past/01.html")
+
+
+def tannaspast02(request):
+    return render(request, "base/tannas-past/02.html")
+
+
+def tannaspast03(request):
+    return render(request, "base/tannas-past/03.html")
+
+
+def tannaspast04(request):
+    return render(request, "base/tannas-past/04.html")
 
 
 def london01(request):
@@ -168,57 +188,111 @@ def numidia07(request):
     return render(request, "base/numidia/07.html")
 
 
-
 def ethiopia01(request):
     return render(request, "base/ethiopia/01.html")
 
-    
+
 def ethiopia02(request):
     return render(request, "base/ethiopia/02.html")
 
-    
+
 def ethiopia03(request):
     return render(request, "base/ethiopia/03.html")
 
-    
+
 def ethiopia04(request):
     return render(request, "base/ethiopia/04.html")
 
-    
+
 def ethiopia05(request):
     return render(request, "base/ethiopia/05.html")
 
-    
+
 def ethiopia06(request):
     return render(request, "base/ethiopia/06.html")
 
-    
+
 def ethiopia07(request):
     return render(request, "base/ethiopia/07.html")
 
-    
+
 def ethiopia08(request):
     return render(request, "base/ethiopia/08.html")
 
-    
+
 def ethiopia09(request):
     return render(request, "base/ethiopia/09.html")
 
-    
+
 def ethiopia10(request):
     return render(request, "base/ethiopia/10.html")
 
-    
+
 def ethiopia11(request):
     return render(request, "base/ethiopia/11.html")
 
-    
+
 def ethiopia12(request):
     return render(request, "base/ethiopia/12.html")
 
-    
+
 def ethiopia13(request):
     return render(request, "base/ethiopia/13.html")
 
+
 def ethiopia14(request):
     return render(request, "base/ethiopia/14.html")
+
+
+def congo01(request):
+    return render(request, "base/congo/01.html")
+
+
+def congo02(request):
+    return render(request, "base/congo/02.html")
+
+
+def congo03(request):
+    return render(request, "base/congo/03.html")
+
+
+def congo04(request):
+    return render(request, "base/congo/04.html")
+
+
+def congo05(request):
+    return render(request, "base/congo/05.html")
+
+
+def congo06(request):
+    return render(request, "base/congo/06.html")
+
+
+def fishpeople01(request):
+    return render(request, "base/fish-people/01.html")
+
+
+def fishpeople02(request):
+    return render(request, "base/fish-people/02.html")
+
+
+def fishpeople03(request):
+    return render(request, "base/fish-people/03.html")
+
+
+def fishpeople04(request):
+    return render(request, "base/fish-people/04.html")
+
+
+def fishpeople05(request):
+    return render(request, "base/fish-people/05.html")
+
+
+def fishpeople06(request):
+    return render(request, "base/fish-people/06.html")
+
+
+def fishpeople07(request):
+    return render(request, "base/fish-people/07.html")
+
+

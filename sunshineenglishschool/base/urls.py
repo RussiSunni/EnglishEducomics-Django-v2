@@ -18,7 +18,13 @@ urlpatterns = [
     path("choosefamiliar", views.choosefamiliar, name='choosefamiliar'),
 
     path("hub", views.hub, name='hub'),
+    path("reception", views.reception, name='reception'),
     path("room", views.room, name='room'),
+
+    path("tannas-past01", views.tannaspast01, name='tannas-past01'),
+    path("tannas-past02", views.tannaspast02, name='tannas-past02'),
+    path("tannas-past03", views.tannaspast03, name='tannas-past03'),
+    path("tannas-past04", views.tannaspast04, name='tannas-past04'),
 
     path("london01", views.london01, name='london01'),
     path("london02", views.london02, name='london02'),
@@ -65,8 +71,24 @@ urlpatterns = [
     path("ethiopia13", views.ethiopia13, name='ethiopia13'),
     path("ethiopia14", views.ethiopia14, name='ethiopia14'),
 
+    path("congo01", views.congo01, name='congo01'),
+    path("congo02", views.congo02, name='congo02'),
+    path("congo03", views.congo03, name='congo03'),
+    path("congo04", views.congo04, name='congo04'),
+    path("congo05", views.congo05, name='congo05'),
+    path("congo06", views.congo06, name='congo06'),
 
-    
+    path("fish-people01", views.fishpeople01, name='fish-people01'),
+    path("fish-people02", views.fishpeople02, name='fish-people02'),
+    path("fish-people03", views.fishpeople03, name='fish-people03'),
+    path("fish-people04", views.fishpeople04, name='fish-people04'),
+    path("fish-people05", views.fishpeople05, name='fish-people05'),
+    path("fish-people06", views.fishpeople06, name='fish-people06'),
+    path("fish-people07", views.fishpeople07, name='fish-people07'),
+
+
+
+
 
 
 ]
