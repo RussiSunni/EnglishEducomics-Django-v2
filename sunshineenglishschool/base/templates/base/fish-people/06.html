@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="/static/style.css">
-		<style>
-		    body {
-				background-color:seagreen;
-				color: white;
-				font-size: 2em;
-			}
-        </style>
+{% extends "base/base.html"  %}
 
-	</head>
+{% block body %}
+{% load static %}
+<style>
+	body {
+		background-color: seagreen;
+		color: white;
+		font-size: 2em;
+	}
+</style>
 
-	<body>
-        <img src = "/media/docks.jpg" width = "800">
-	</body>
-</html>
+
+<img src="{% static 'base/fish-people/fish-people04.jpg' %}" width="800">
+{% endblock %}
